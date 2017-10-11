@@ -15,6 +15,9 @@ exports.version = '0.13.0';
 var Apps = require('./lib/model/cloudcontroller/Apps');
 exports.Apps = Apps;
 
+var Tasks = require('./lib/model/cloudcontroller/Tasks');
+exports.Tasks = Tasks;
+
 /**
  * Support for Buildpacks
  * @type {[type]}
